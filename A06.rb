@@ -1,4 +1,4 @@
-n, q = gets.split.map(&:to_i) # 1行で「10 20」のような入力
+n, q = gets.split.map(&:to_i) # 1行で「10 5」のような入力
 a = gets.split.map(&:to_i) # 横1行のスペース区切りの整数を配列として受け取る(例：a1 a2 a3 ...an)
 LR = []
 q.times { LR << gets.split.map(&:to_i) }
