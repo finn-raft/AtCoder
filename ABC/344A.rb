@@ -1,3 +1,3 @@
-s = gets.chomp.split("|").map(&:to_s)
+s = gets.split("|")
 
-if 
+puts s[0] + s[2]
