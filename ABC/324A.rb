@@ -1,8 +1,8 @@
-S = gets.chomp.chars.map(&:to_i)
-ans = "Yes"
-i = 0
-while i < 16
-  ans = "No" if i % 2 == 1 && S[i] == 1
-  i += 1
+n = gets.to_i
+a = gets.split.map(&:to_i)
+
+if a.uniq.size == 1
+  puts "Yes"
+else
+  puts "No"
 end
-puts ans
