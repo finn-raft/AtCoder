@@ -5,7 +5,7 @@ i = 0
 answer = false
 
 while i < n do
-    if w[i] == "and" || w[i] == "not" || w[i] == "that" || w[i] == "ther" || w[i] == "you"
+    if w[i] == "and" || w[i] == "not" || w[i] == "that" || w[i] == "the" || w[i] == "you"
         answer = true
         break
     end
