@@ -1,9 +1,7 @@
-s = gets.to_i
-arr = []
+s = gets.chomp.chars
 
-(s.length / 2).times do |i|
-  arr << s[2 * i + 1]
-  arr << s[2 * i]
-end
+s.size.times do |i|
+    s[i], s[i + 1] = s[i + 1], s[i] if i.even?
+  end
 
-puts arr.join
+  puts s.join
