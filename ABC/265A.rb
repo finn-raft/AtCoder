@@ -3,7 +3,7 @@ apple = 0
 en = 0
 
 while apple < n do
-    if (apple + 3 < n) && (x * 3 > y)
+    if (apple + 3 <= n) && (x * 3 >= y)
         en += y
         apple += 3
     else
