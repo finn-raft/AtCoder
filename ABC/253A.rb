@@ -1,7 +1,7 @@
 a, b, c = gets.split.map(&:to_i)
 
-if b == (a + b + c) / 3
-    puts "Yes"
+if [a,b,c].sort[1] == b
+	puts 'Yes'
 else
-    puts "No"
+	puts 'No'
 end
