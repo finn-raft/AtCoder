@@ -1,6 +1,6 @@
 s = gets.chomp.chars
 
-if s.uniq == ["A","B","C"] || ["A","C","B"] || ["B","A","C"] || ["B","C","A"] || ["C","B","A"] || ["C","A","B"]
+if s.uniq == ["A","B","C"] || s.uniq == ["A","C","B"] || s.uniq == ["B","A","C"] || s.uniq == ["B","C","A"] || s.uniq == ["C","B","A"] || s.uniq == ["C","A","B"]
     puts "Yes"
 else
     puts "No"
