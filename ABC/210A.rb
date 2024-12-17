@@ -10,3 +10,5 @@ while i < n do
     end
     i += 1
 end
+
+puts yen
