@@ -8,8 +8,8 @@ public class B059 {
 
 		Scanner scan = new Scanner(System.in);
 
-		int A = scan.nextInt();
-        int B = scan.nextInt();
+		double A = scan.nextDouble();
+        double B = scan.nextDouble();
 
         if (A > B) {
             System.out.println("GREATER");
@@ -19,7 +19,5 @@ public class B059 {
             System.out.println("EQUAL");
         }
 
-		scan.close();
 	}
-
 }
