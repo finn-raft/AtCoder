@@ -8,11 +8,11 @@ public class B055 {
 
 		Scanner scan = new Scanner(System.in);
 
-		int N = scan.nextInt();
-        int result = 1;
+		long N = scan.nextLong();
+        long result = 1;
 
-        for (int i = 1; i <= N; i++) {
-            result = result * i % 1000000007;
+        for (long i = 1; i <= N; i++) {
+            result = (result * i) % 1000000007;
         }
 
         System.out.println(result);
