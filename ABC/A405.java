@@ -10,11 +10,11 @@ public class A405 {
         int X = sc.nextInt();
 
         if(R >= 1600 && R <= 2999 && X == 1) {
-            System.out.println("YES");
+            System.out.println("Yes");
         } else if (R >= 1200 && R <= 2399 && X == 2) {
-            System.out.println("YES");
+            System.out.println("Yes");
         } else {
-            System.out.println("NO");
+            System.out.println("No");
         }
         sc.close();
     }
